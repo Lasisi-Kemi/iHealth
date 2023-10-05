@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.js'></script> -->
+    <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.js'></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Dashboard</title>
+</head>
+<body class="dashboardbody">
+    <section class="dashboard">
+        <div class="dashboard-flexone">
+            <div class="dashboard-flexone-logo">
+                <a href="index.html"><span>i</span>Health</a>
+            </div>
+            <div class="dashboard-flexone-details">
+                <p class="dashboard-flexone-details-title">GENERAL</p>
+                <div class="dashboard-flexone-details-flex dashboard-flexone-details-flexactive">
+                    <img src="./assets/home.svg">
+                    <a href="">Home</a>
+                </div>
+                <div class="dashboard-flexone-details-flex">
+                    <img src="./assets/clock.svg">
+                    <a href="">Appointments</a>
+                </div>
+                <div class="dashboard-flexone-details-flex">
+                    <img src="./assets/prescription.svg">
+                    <a href="">Prescriptions</span>
+                </div>
+            </div>
+            <div class="dashboard-flexone-details">
+                <p class="dashboard-flexone-details-title">SUPPORT</p>
+                <div class="dashboard-flexone-details-flex">
+                    <img src="./assets/setting.svg">
+                    <a href="">Settings</a>
+                </div>
+                <div class="dashboard-flexone-details-flex">
+                    <img src="./assets/help.svg">
+                    <a href="">Help</span>
+                </div>
+            </div>
+            <div class="dashboard-flexone-plan">
+                <p class="dashboard-flexone-plan-text">Health plans</p>
+                <div class="dashboard-flexone-plan-flex">
+                    <a href="">LEARN MORE</a>
+                    <img src="./assets/arrow.svg">
+                </div>
+                <div class="dashboard-flexone-plan-bg"></div>
+            </div>
+        </div>
+        <div class="dashboard-flextwo">
+            <div class="dashboard-flextwo-container">
+                <div class="dashboard-flextwo-container-one">
+                    <p class="dashboard-flextwo-container-one-text">Morning, <span>Mr. Adepeju</span></p>
+                    <div class="dashboard-flextwo-container-one-search">
+                        <input type="search" placeholder="Search...">
+                        <img src="./assets/search.svg">
+                    </div>
+                </div>
+                <div class="dashboard-flextwo-container-two">
+                    <img src="./assets/alarm.svg">
+                    <a href="">Book Appointment </a>
+                </div>
+            </div>
+            <div class="dashboard-flextwo-dashboard">
+                <div class="dashboard-flextwo-box">
+                    <div class="dashboard-flextwo-dashboard-one dashboard-flextwo-dashboard-oneborder">
+                        <div class="dashboard-flextwo-dashboard-one-sectionone dashboard-flextwo-dashboard-one-padding">
+                            <p class="dashboard-flextwo-dashboard-one-text">Appointment for today</p>
+                            <!-- <div class="dashboard-flextwo-dashboard-one-empty">
+                                <div class="dashboard-flextwo-dashboard-one-empty-bg dashboard-flextwo-dashboard-one-empty-appointment"></div>
+                                <p class="dashboard-flextwo-dashboard-one-empty-text">Empty list</p>
+                                <p class="dashboard-flextwo-dashboard-one-empty-textwo">You do not any appointment</p>
+                            </div> -->
+                            <div class="dashboard-flextwo-dashboard-one-sectiontwo">
+                                <div class="dashboard-flextwo-dashboard-one-sectiontwo-container">
+                                    <p class="dashboard-flextwo-dashboard-one-sectiontwo-container-text">Simon Adepeju’s treatment </p>
+                                    <p class="dashboard-flextwo-dashboard-one-sectiontwo-container-smalltext">With Dr. Chris</p>
+                                    <a href="" class="dashboard-flextwo-dashboard-one-sectiontwo-container-button">Join</a>
+                                </div>
+                                <div class="dashboard-flextwo-dashboard-one-sectiontwo-container">
+                                    <p class="dashboard-flextwo-dashboard-one-sectiontwo-container-text">Simon Adepeju’s treatment </p>
+                                    <p class="dashboard-flextwo-dashboard-one-sectiontwo-container-smalltext">With Dr. Chris</p>
+                                    <a href="" class="dashboard-flextwo-dashboard-one-sectiontwo-container-button">1:42:00 left</a>
+                                </div>
+                                <div class="dashboard-flextwo-dashboard-one-sectiontwo-container">
+                                    <p class="dashboard-flextwo-dashboard-one-sectiontwo-container-text">Simon Adepeju’s treatment </p>
+                                    <p class="dashboard-flextwo-dashboard-one-sectiontwo-container-smalltext">With Dr. Chris</p>
+                                    <a href="" class="dashboard-flextwo-dashboard-one-sectiontwo-container-button">Join</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dashboard-flextwo-dashboard-one">
+                        <div class="dashboard-flextwo-dashboard-one-sectionone">
+                            <div class="dashboard-flextwo-dashboard-one-prescription">
+                                <p class="dashboard-flextwo-dashboard-one-text">Prescriptions</p>
+                                <!-- <div class="dashboard-flextwo-dashboard-one-empty">
+                                    <div class="dashboard-flextwo-dashboard-one-empty-bg dashboard-flextwo-dashboard-one-empty-prescription"></div>
+                                    <p class="dashboard-flextwo-dashboard-one-empty-text">Empty list</p>
+                                    <p class="dashboard-flextwo-dashboard-one-empty-textwo">Prescriptions given will appear here</p>
+                                </div> -->
+                            </div>
+                            <div class="dashboard-flextwo-dashboard-one-drugprescription">
+                                <div class="dashboard-flextwo-dashboard-one-drugprescription-box dashboard-flextwo-dashboard-one-drugprescription-boxa">
+                                    <div class="dashboard-flextwo-dashboard-one-drugprescription-box-first">
+                                        <p>Adepeju Felix</p>
+                                        <p>20/08/23</p>
+                                    </div>
+                                    <div class="dashboard-flextwo-dashboard-one-drugprescription-box-container">
+                                        <div class="dashboard-flextwo-dashboard-one-drugprescription-box-second">
+                                            <p class="dashboard-flextwo-dashboard-one-drugprescription-box-second-drug">Monofrax</p>
+                                            <p class="dashboard-flextwo-dashboard-one-drugprescription-box-second-dose">Twice daily</p>
+                                        </div>
+                                        <div class="dashboard-flextwo-dashboard-one-drugprescription-box-second dashboard-flextwo-dashboard-one-drugprescription-box-padding">
+                                            <p class="dashboard-flextwo-dashboard-one-drugprescription-box-second-drug">Aloget</p>
+                                            <p class="dashboard-flextwo-dashboard-one-drugprescription-box-second-dose">Twice daily</p>
+                                        </div>
+                                    </div>
+                                    <div class="dashboard-flextwo-dashboard-one-drugprescription-box-note">
+                                        <p class="dashboard-flextwo-dashboard-one-drugprescription-box-note-note">Note</p>
+                                        <p class="dashboard-flextwo-dashboard-one-drugprescription-box-note-use">Use for 2 weeks</p>
+                                    </div>
+                                    <div class="dashboard-flextwo-dashboard-one-drugprescription-box-doctorname">
+                                        <p>Dr. Olu</p>
+                                    </div>
+                                </div>
+                                <div class="dashboard-flextwo-dashboard-one-drugprescription-box dashboard-flextwo-dashboard-one-drugprescription-boxb">
+                                    <div class="dashboard-flextwo-dashboard-one-drugprescription-box-first">
+                                        <p>Adepeju Felix</p>
+                                        <p>20/08/23</p>
+                                    </div>
+                                    <div class="dashboard-flextwo-dashboard-one-drugprescription-box-container">
+                                        <div class="dashboard-flextwo-dashboard-one-drugprescription-box-second">
+                                            <p class="dashboard-flextwo-dashboard-one-drugprescription-box-second-drug">Monofrax</p>
+                                            <p class="dashboard-flextwo-dashboard-one-drugprescription-box-second-dose">Twice daily</p>
+                                        </div>
+                                        <div class="dashboard-flextwo-dashboard-one-drugprescription-box-second dashboard-flextwo-dashboard-one-drugprescription-box-padding">
+                                            <p class="dashboard-flextwo-dashboard-one-drugprescription-box-second-drug">Aloget</p>
+                                            <p class="dashboard-flextwo-dashboard-one-drugprescription-box-second-dose">Twice daily</p>
+                                        </div>
+                                    </div>
+                                    <div class="dashboard-flextwo-dashboard-one-drugprescription-box-note">
+                                        <p class="dashboard-flextwo-dashboard-one-drugprescription-box-note-note">Note</p>
+                                        <p class="dashboard-flextwo-dashboard-one-drugprescription-box-note-use">Use for 2 weeks</p>
+                                    </div>
+                                    <div class="dashboard-flextwo-dashboard-one-drugprescription-box-doctorname">
+                                        <p>Dr. Olu</p>
+                                    </div>
+                                </div>
+                                <div class="dashboard-flextwo-dashboard-one-drugprescription-box dashboard-flextwo-dashboard-one-drugprescription-boxc">
+                                    <div class="dashboard-flextwo-dashboard-one-drugprescription-box-first">
+                                        <p>Adepeju Felix</p>
+                                        <p>20/08/23</p>
+                                    </div>
+                                    <div class="dashboard-flextwo-dashboard-one-drugprescription-box-container">
+                                        <div class="dashboard-flextwo-dashboard-one-drugprescription-box-second">
+                                            <p class="dashboard-flextwo-dashboard-one-drugprescription-box-second-drug">Monofrax</p>
+                                            <p class="dashboard-flextwo-dashboard-one-drugprescription-box-second-dose">Twice daily</p>
+                                        </div>
+                                        <div class="dashboard-flextwo-dashboard-one-drugprescription-box-second dashboard-flextwo-dashboard-one-drugprescription-box-padding">
+                                            <p class="dashboard-flextwo-dashboard-one-drugprescription-box-second-drug">Aloget</p>
+                                            <p class="dashboard-flextwo-dashboard-one-drugprescription-box-second-dose">Twice daily</p>
+                                        </div>
+                                    </div>
+                                    <div class="dashboard-flextwo-dashboard-one-drugprescription-box-note">
+                                        <p class="dashboard-flextwo-dashboard-one-drugprescription-box-note-note">Note</p>
+                                        <p class="dashboard-flextwo-dashboard-one-drugprescription-box-note-use">Use for 2 weeks</p>
+                                    </div>
+                                    <div class="dashboard-flextwo-dashboard-one-drugprescription-box-doctorname">
+                                        <p>Dr. Olu</p>
+                                    </div>
+                                </div>
+                                <div class="dashboard-flextwo-dashboard-one-drugprescription-box dashboard-flextwo-dashboard-one-drugprescription-boxd">
+                                    <div class="dashboard-flextwo-dashboard-one-drugprescription-box-first">
+                                        <p>Adepeju Felix</p>
+                                        <p>20/08/23</p>
+                                    </div>
+                                    <div class="dashboard-flextwo-dashboard-one-drugprescription-box-container">
+                                        <div class="dashboard-flextwo-dashboard-one-drugprescription-box-second">
+                                            <p class="dashboard-flextwo-dashboard-one-drugprescription-box-second-drug">Monofrax</p>
+                                            <p class="dashboard-flextwo-dashboard-one-drugprescription-box-second-dose">Twice daily</p>
+                                        </div>
+                                        <div class="dashboard-flextwo-dashboard-one-drugprescription-box-second dashboard-flextwo-dashboard-one-drugprescription-box-padding">
+                                            <p class="dashboard-flextwo-dashboard-one-drugprescription-box-second-drug">Aloget</p>
+                                            <p class="dashboard-flextwo-dashboard-one-drugprescription-box-second-dose">Twice daily</p>
+                                        </div>
+                                    </div>
+                                    <div class="dashboard-flextwo-dashboard-one-drugprescription-box-note">
+                                        <p class="dashboard-flextwo-dashboard-one-drugprescription-box-note-note">Note</p>
+                                        <p class="dashboard-flextwo-dashboard-one-drugprescription-box-note-use">Use for 2 weeks</p>
+                                    </div>
+                                    <div class="dashboard-flextwo-dashboard-one-drugprescription-box-doctorname">
+                                        <p>Dr. Olu</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="dashboard-flextwo-dashboard-two">
+                    <div class="dashboard-flextwo-dashboard-two-border">
+                        <p class="dashboard-flextwo-dashboard-one-text">Calender</p>
+                        <div id='calendar'></div>
+                        <div class="dashboard-flextwo-dashboard-two-container">
+                            <!-- <div class="dashboard-flextwo-dashboard-one-empty">
+                                <div class="dashboard-flextwo-dashboard-one-empty-bg dashboard-flextwo-dashboard-one-empty-treatment"></div>
+                                <p class="dashboard-flextwo-dashboard-one-empty-text">No upcoming appointments</p>
+                                <p class="dashboard-flextwo-dashboard-one-empty-textwo">Your appointments will appear here</p>
+                            </div> -->
+                            <div>
+                                <p class="dashboard-flextwo-dashboard-one-text">Prescriptions</p>
+                                <div class="dashboard-flextwo-dashboard-two-container-box">
+                                    <div class="dashboard-flextwo-dashboard-two-container-box-box dashboard-flextwo-dashboard-two-container-box-boxone">
+                                        <div class="dashboard-flextwo-dashboard-two-container-box-box-flex">
+                                            <p class="dashboard-flextwo-dashboard-two-container-box-box-flex-name">Felix Adepeju’s treatment </p>
+                                            <p><img src="./assets/threedot.svg"></p>
+                                        </div>
+                                        <p class="dashboard-flextwo-dashboard-two-container-box-box-time">9am-10am<span><img src="./assets/dot.svg"></span>31st August, 2023</p>
+                                    </div>
+                                    <div class="dashboard-flextwo-dashboard-two-container-box-box dashboard-flextwo-dashboard-two-container-box-boxtwo">
+                                        <div class="dashboard-flextwo-dashboard-two-container-box-box-flex">
+                                            <p class="dashboard-flextwo-dashboard-two-container-box-box-flex-name">Felix Adepeju’s treatment </p>
+                                            <p><img src="./assets/threeblackdot.svg"></p>
+                                        </div>
+                                        <p class="dashboard-flextwo-dashboard-two-container-box-box-time">9am-10am<span><img src="./assets/blackdot.svg"></span>31st August, 2023</p>
+                                    </div>
+                                    <div class="dashboard-flextwo-dashboard-two-container-box-box dashboard-flextwo-dashboard-two-container-box-boxtwo">
+                                        <div class="dashboard-flextwo-dashboard-two-container-box-box-flex">
+                                            <p class="dashboard-flextwo-dashboard-two-container-box-box-flex-name">Felix Adepeju’s treatment </p>
+                                            <p><img src="./assets/threeblackdot.svg"></p>
+                                        </div>
+                                        <p class="dashboard-flextwo-dashboard-two-container-box-box-time">9am-10am<span><img src="./assets/blackdot.svg"></span>31st August, 2023</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="./script/script.js"></script>
+</body>
+</html>
